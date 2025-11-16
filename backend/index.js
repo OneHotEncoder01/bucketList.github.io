@@ -5,7 +5,18 @@ const cors = require('cors')
 const { MongoClient, ObjectId } = require('mongodb')
 
 const app = express()
-app.use(cors())
+
+const allowedOrigins = (process.env.CORS_ORIGINS || '')
+  .split(',')
+  .map((origin) => origin.trim())
+  .filter(Boolean)
+
+app.use(
+  cors({
+    origin: allowedOrigins.length ? allowedOrigins : true,
+    credentials: true,
+  })
+)
 app.use(express.json({ limit: '1mb' }))
 
 const PORT = process.env.PORT || 3000
