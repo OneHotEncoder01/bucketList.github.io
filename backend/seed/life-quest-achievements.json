@@ -1,0 +1,3747 @@
+{
+  "id": "life-quest-achievements",
+  "name": "Life Quest Achievements",
+  "description": "A gamified board turning life goals into quest achievements.",
+  "theme": {
+    "mode": "dark"
+  },
+  "layout": {
+    "direction": "TB"
+  },
+  "stats": {
+    "total": 120,
+    "stepsTotal": 1304,
+    "stepsDone": 0,
+    "xpCompleted": 0
+  },
+  "progression": {
+    "level": 1,
+    "xp": 0,
+    "xpIntoLevel": 0,
+    "xpPerLevel": 400
+  },
+  "nodes": [
+    {
+      "id": "root",
+      "type": "achievement",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "data": {
+        "label": "Grand Adventure Log",
+        "description": "Unlock every life quest across travel, mastery, culture, service, and soul.",
+        "status": "tracking",
+        "rarity": "legendary",
+        "reward": "Life Mastery Emblem",
+        "xp": 0,
+        "icon": "🌟",
+        "tags": [
+          "overview"
+        ],
+        "color": "#fbbf24",
+        "progress": {
+          "current": 0,
+          "total": 119
+        }
+      }
+    },
+    {
+      "id": "pillar-travel",
+      "type": "achievement",
+      "position": {
+        "x": 360,
+        "y": 180
+      },
+      "data": {
+        "label": "Travel & Nature Wonders",
+        "description": "Complete iconic natural marvel quests around the globe.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Nomad’s Compass",
+        "xp": 0,
+        "icon": "🌍",
+        "tags": [
+          "pillar",
+          "travel"
+        ],
+        "color": "#38bdf8",
+        "progress": {
+          "current": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "id": "travel-natural-marvels",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 360
+      },
+      "data": {
+        "label": "Natural Marvels",
+        "description": "Chase Earth’s rarest sky and sea spectacles.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "travel",
+          "nature"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "id": "travel-northern-lights",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 540
+      },
+      "data": {
+        "label": "See the Northern Lights",
+        "description": "Witness aurora borealis in Norway, Iceland, or Finland.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Aurora Cloak",
+        "xp": 0,
+        "icon": "🌌",
+        "tags": [
+          "travel",
+          "nature",
+          "cold"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-bioluminescent-bay",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 720
+      },
+      "data": {
+        "label": "Witness Bioluminescence",
+        "description": "Kayak glowing waters in Puerto Rico or the Maldives.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Starlit Tide Orb",
+        "xp": 0,
+        "icon": "✨",
+        "tags": [
+          "travel",
+          "nature"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-victoria-falls",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 900
+      },
+      "data": {
+        "label": "See Victoria Falls",
+        "description": "Stand in the spray of Mosi-oa-Tunya on the Zambezi.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Spraywalker Medal",
+        "xp": 0,
+        "icon": "💦",
+        "tags": [
+          "travel",
+          "waterfall"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-antarctica-cruise",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 1080
+      },
+      "data": {
+        "label": "Cruise to Antarctica",
+        "description": "Embark on an expedition to the Antarctic Peninsula.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Polar Explorer Flag",
+        "xp": 0,
+        "icon": "🧊",
+        "tags": [
+          "travel",
+          "polar"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-heritage-treasures",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 1260
+      },
+      "data": {
+        "label": "Heritage Treasures",
+        "description": "Walk storied paths and sunrise citadels.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "travel",
+          "heritage"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "id": "travel-machu-picchu",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 1440
+      },
+      "data": {
+        "label": "Hike to Machu Picchu",
+        "description": "Complete the trek to the Incan citadel in Peru.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Incan Trailband",
+        "xp": 0,
+        "icon": "🏛️",
+        "tags": [
+          "travel",
+          "hiking",
+          "heritage"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-great-wall",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 1620
+      },
+      "data": {
+        "label": "Walk the Great Wall",
+        "description": "Hike along China’s legendary fortification.",
+        "status": "locked",
+        "rarity": "uncommon",
+        "reward": "Wall Walker Medal",
+        "xp": 0,
+        "icon": "🧱",
+        "tags": [
+          "travel",
+          "history"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-taj-mahal",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 1800
+      },
+      "data": {
+        "label": "Sunrise at the Taj Mahal",
+        "description": "Watch dawn break over the Taj Mahal.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Marble Dawn Charm",
+        "xp": 0,
+        "icon": "🕌",
+        "tags": [
+          "travel",
+          "heritage"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-camino-norte",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 1980
+      },
+      "data": {
+        "label": "Walk Camino del Norte",
+        "description": "Complete Spain’s coastal pilgrimage path.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Pilgrim Shell",
+        "xp": 0,
+        "icon": "🪪",
+        "tags": [
+          "travel",
+          "pilgrimage"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-ecosystems",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 2160
+      },
+      "data": {
+        "label": "Remote Ecosystems",
+        "description": "Step into wild biomes and biodiversity hotspots.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "travel",
+          "wildlife"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "id": "travel-amazon",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 2340
+      },
+      "data": {
+        "label": "Explore the Amazon Rainforest",
+        "description": "Immerse yourself in Amazon biodiversity with a local guide.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Jungle Pathfinder Token",
+        "xp": 0,
+        "icon": "🌳",
+        "tags": [
+          "travel",
+          "rainforest"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-safari-big-five",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 2520
+      },
+      "data": {
+        "label": "See the Big Five",
+        "description": "Spot the Big Five on an African safari.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Safari Ranger Badge",
+        "xp": 0,
+        "icon": "🦁",
+        "tags": [
+          "wildlife",
+          "travel"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-greenland-fjords",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 2700
+      },
+      "data": {
+        "label": "Kayak Greenland’s Fjords",
+        "description": "Paddle iceberg-lined fjords in Greenland.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Glacier Paddle Token",
+        "xp": 0,
+        "icon": "🛶",
+        "tags": [
+          "travel",
+          "kayak"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-socotra",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 2880
+      },
+      "data": {
+        "label": "Visit Socotra Island",
+        "description": "Explore Yemen’s dragon blood trees and surreal landscapes.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Dragon’s Blood Vial",
+        "xp": 0,
+        "icon": "🪴",
+        "tags": [
+          "travel",
+          "biodiversity"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-cultural-immersions",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 3060
+      },
+      "data": {
+        "label": "Cultural Immersions",
+        "description": "Live among cultures shaped by seasons and sands.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "travel",
+          "culture"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "id": "travel-cherry-blossoms",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 3240
+      },
+      "data": {
+        "label": "See Sakura in Japan",
+        "description": "Witness cherry blossoms in full bloom across Japan.",
+        "status": "locked",
+        "rarity": "uncommon",
+        "reward": "Hanami Fan",
+        "xp": 0,
+        "icon": "🌸",
+        "tags": [
+          "travel",
+          "seasons"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-gobi-camp",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 3420
+      },
+      "data": {
+        "label": "Camp in the Gobi Desert",
+        "description": "Spend nights under Mongolian desert skies.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Nomad Bedroll",
+        "xp": 0,
+        "icon": "🏜️",
+        "tags": [
+          "travel",
+          "desert"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-faroe-islands",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 3600
+      },
+      "data": {
+        "label": "Explore the Faroe Islands",
+        "description": "Roam the dramatic cliffs and turf villages of the Faroes.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "North Atlantic Pennant",
+        "xp": 0,
+        "icon": "🪶",
+        "tags": [
+          "travel",
+          "islands"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "travel-dead-sea",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 3780
+      },
+      "data": {
+        "label": "Float in the Dead Sea",
+        "description": "Experience the buoyant waters of the Dead Sea.",
+        "status": "locked",
+        "rarity": "uncommon",
+        "reward": "Mineral Salts Satchel",
+        "xp": 0,
+        "icon": "🧂",
+        "tags": [
+          "travel",
+          "wellness"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "pillar-adventure",
+      "type": "achievement",
+      "position": {
+        "x": 360,
+        "y": 3960
+      },
+      "data": {
+        "label": "Physical Challenges & Outdoor Adventures",
+        "description": "Face endurance epics, aerial thrills, and survival mastery.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Trailblazer’s Crest",
+        "xp": 0,
+        "icon": "🧗",
+        "tags": [
+          "pillar",
+          "adventure"
+        ],
+        "color": "#f97316",
+        "progress": {
+          "current": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "id": "adventure-expeditions",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 4140
+      },
+      "data": {
+        "label": "Global Expeditions",
+        "description": "High altitude summits and desert odysseys.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "adventure",
+          "expedition"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "physical-eight-thousand",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 4320
+      },
+      "data": {
+        "label": "Climb an 8,000m Peak",
+        "description": "Summit a guided eight-thousander in the Himalaya or Karakoram.",
+        "status": "locked",
+        "rarity": "mythic",
+        "reward": "Summit Crown",
+        "xp": 0,
+        "icon": "🏔️",
+        "tags": [
+          "adventure",
+          "mountaineering"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "physical-world-mountain",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 4500
+      },
+      "data": {
+        "label": "Summit an Iconic Mountain",
+        "description": "Reach the top of Fuji, Kilimanjaro, Toubkal, or Everest Base Camp.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Peak Conqueror Patch",
+        "xp": 0,
+        "icon": "🧗",
+        "tags": [
+          "adventure",
+          "mountains"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "physical-desert-trek",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 4680
+      },
+      "data": {
+        "label": "Desert Trek Expedition",
+        "description": "Complete a multi-day trek in the Sahara or Wadi Rum.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Dune Walker Token",
+        "xp": 0,
+        "icon": "🏜️",
+        "tags": [
+          "adventure",
+          "desert"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "adventure-endurance",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 4860
+      },
+      "data": {
+        "label": "Endurance Feats",
+        "description": "Push lungs, legs, and oceans.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "adventure",
+          "endurance"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "physical-english-channel",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 5040
+      },
+      "data": {
+        "label": "Swim the English Channel",
+        "description": "Complete a solo or relay cross-channel swim.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Channel Swimmer Medal",
+        "xp": 0,
+        "icon": "🏊",
+        "tags": [
+          "endurance",
+          "swim"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "physical-marathon",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 5220
+      },
+      "data": {
+        "label": "Run a Marathon",
+        "description": "Finish a marathon or ultramarathon.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Endurance Laurel",
+        "xp": 0,
+        "icon": "🏅",
+        "tags": [
+          "running",
+          "endurance"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "physical-long-distance-cycle",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 5400
+      },
+      "data": {
+        "label": "Cycle a Legendary Route",
+        "description": "Ride a long-distance path like the Danube Trail or Pacific Coast.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Touring Wheel Charm",
+        "xp": 0,
+        "icon": "🚴",
+        "tags": [
+          "cycling",
+          "endurance"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "adventure-adrenaline",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 5580
+      },
+      "data": {
+        "label": "Adrenaline & Aerial",
+        "description": "Leap, plunge, and drift above wonders.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "adventure",
+          "adrenaline"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "physical-skydive",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 5760
+      },
+      "data": {
+        "label": "Skydive from 15,000 ft",
+        "description": "Leap from the sky above iconic landscapes.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Skyfall Wings",
+        "xp": 0,
+        "icon": "🪂",
+        "tags": [
+          "adrenaline"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "physical-bungee",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 5940
+      },
+      "data": {
+        "label": "Bungee Jump Iconic Site",
+        "description": "Take a plunge from a world-famous bungee platform.",
+        "status": "locked",
+        "rarity": "uncommon",
+        "reward": "Bungee Cord Charm",
+        "xp": 0,
+        "icon": "🪢",
+        "tags": [
+          "adrenaline"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "physical-hot-air-balloon",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 6120
+      },
+      "data": {
+        "label": "Hot Air Balloon Voyage",
+        "description": "Soar over Cappadocia, Serengeti, or Bagan.",
+        "status": "locked",
+        "rarity": "uncommon",
+        "reward": "Sky Lantern Badge",
+        "xp": 0,
+        "icon": "🎈",
+        "tags": [
+          "travel",
+          "sky"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "adventure-survival",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 6300
+      },
+      "data": {
+        "label": "Survival Mastery",
+        "description": "Earn fieldcraft and solo wilderness resilience.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "adventure",
+          "survival"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "id": "physical-whitewater",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 6480
+      },
+      "data": {
+        "label": "Raft Class IV/V Rapids",
+        "description": "Navigate high-grade white water.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "River Runner Crest",
+        "xp": 0,
+        "icon": "🚣",
+        "tags": [
+          "adventure",
+          "water"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "physical-national-park-week",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 6660
+      },
+      "data": {
+        "label": "Camp a National Park Week",
+        "description": "Live in a national park for seven days.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Park Ranger Patch",
+        "xp": 0,
+        "icon": "🏕️",
+        "tags": [
+          "outdoors",
+          "camping"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "physical-solitude-night",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 6840
+      },
+      "data": {
+        "label": "Night Alone in Wilderness",
+        "description": "Spend a solo night in the wild.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Solitude Stone",
+        "xp": 0,
+        "icon": "🌌",
+        "tags": [
+          "survival",
+          "mindfulness"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "physical-survival-course",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 7020
+      },
+      "data": {
+        "label": "Complete Survival Course",
+        "description": "Finish a multi-day survival or bushcraft course.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Fieldcraft Badge",
+        "xp": 0,
+        "icon": "🧭",
+        "tags": [
+          "survival",
+          "skills"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "pillar-skills",
+      "type": "achievement",
+      "position": {
+        "x": 360,
+        "y": 7200
+      },
+      "data": {
+        "label": "Mastery & Crafts",
+        "description": "Gather new disciplines, craftsmanship, and mental artistry.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Artisan’s Ledger",
+        "xp": 0,
+        "icon": "🎓",
+        "tags": [
+          "pillar",
+          "learning"
+        ],
+        "color": "#a855f7",
+        "progress": {
+          "current": 0,
+          "total": 5
+        }
+      }
+    },
+    {
+      "id": "skills-communication",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 7380
+      },
+      "data": {
+        "label": "Communication Arts",
+        "description": "Voice, words, and human connection.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "learning",
+          "communication"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "skills-new-language",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 7560
+      },
+      "data": {
+        "label": "Master a New Language",
+        "description": "Learn a language and use it abroad.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Polyglot Pin",
+        "xp": 0,
+        "icon": "🗣️",
+        "tags": [
+          "learning",
+          "language"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-sign-language",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 7740
+      },
+      "data": {
+        "label": "Learn Sign Language",
+        "description": "Hold a full conversation in sign language.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Bridge of Hands Token",
+        "xp": 0,
+        "icon": "🤟",
+        "tags": [
+          "language",
+          "inclusion"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-article-publish",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 7920
+      },
+      "data": {
+        "label": "Publish a Feature Article",
+        "description": "Pitch, write, and publish an article in a major outlet.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Byline Badge",
+        "xp": 0,
+        "icon": "📰",
+        "tags": [
+          "writing",
+          "communication"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-performance",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 8100
+      },
+      "data": {
+        "label": "Music & Performance",
+        "description": "Create ovations and mentor others.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "learning",
+          "performance"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "skills-musical-instrument",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 8280
+      },
+      "data": {
+        "label": "Master an Instrument",
+        "description": "Perform fluently on a musical instrument.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Virtuoso Ribbon",
+        "xp": 0,
+        "icon": "🎻",
+        "tags": [
+          "music",
+          "learning"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-standup-comedy",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 8460
+      },
+      "data": {
+        "label": "Perform Stand-Up Comedy",
+        "description": "Write a stand-up set and perform it live.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Spotlight Mic",
+        "xp": 0,
+        "icon": "🎤",
+        "tags": [
+          "performance",
+          "courage"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-lead-workshop",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 8640
+      },
+      "data": {
+        "label": "Lead a Masterclass",
+        "description": "Teach a workshop to 20+ attendees.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Mentor Crest",
+        "xp": 0,
+        "icon": "🎓",
+        "tags": [
+          "teaching",
+          "leadership"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-crafts",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 8820
+      },
+      "data": {
+        "label": "Craftsmanship & Maker",
+        "description": "Shape wood, metal, ink, and garden soil.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "learning",
+          "craft"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "id": "skills-woodworking",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 9000
+      },
+      "data": {
+        "label": "Craft a Woodworking Project",
+        "description": "Build a piece of furniture from raw lumber.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Workshop Mark",
+        "xp": 0,
+        "icon": "🪚",
+        "tags": [
+          "craft",
+          "maker"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-blacksmithing",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 9180
+      },
+      "data": {
+        "label": "Forge Metal Art",
+        "description": "Complete a blacksmithing intensive and forge a usable item.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Forgefire Token",
+        "xp": 0,
+        "icon": "⚒️",
+        "tags": [
+          "craft",
+          "maker"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-calligraphy",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 9360
+      },
+      "data": {
+        "label": "Learn Calligraphy",
+        "description": "Create a calligraphed piece to gift or display.",
+        "status": "locked",
+        "rarity": "uncommon",
+        "reward": "Ink Artisan Seal",
+        "xp": 0,
+        "icon": "🖋️",
+        "tags": [
+          "art",
+          "craft"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-home-garden",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 9540
+      },
+      "data": {
+        "label": "Design a Home Garden",
+        "description": "Grow a thriving edible or botanical garden for a season.",
+        "status": "locked",
+        "rarity": "uncommon",
+        "reward": "Greenkeeper Badge",
+        "xp": 0,
+        "icon": "🌿",
+        "tags": [
+          "sustainability",
+          "craft"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-innovation",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 9720
+      },
+      "data": {
+        "label": "Science & Innovation",
+        "description": "Pilot airspace and prototype the future.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "learning",
+          "innovation"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "skills-pilot-license",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 9900
+      },
+      "data": {
+        "label": "Earn a Pilot License",
+        "description": "Complete flight school and earn a private pilot certificate.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Sky Captain Wings",
+        "xp": 0,
+        "icon": "✈️",
+        "tags": [
+          "aviation",
+          "learning"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-3d-printing",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 10080
+      },
+      "data": {
+        "label": "Prototype with 3D Printing",
+        "description": "Design and print a functional prototype.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Makerspace Badge",
+        "xp": 0,
+        "icon": "🧱",
+        "tags": [
+          "tech",
+          "maker"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-chess-tournament",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 10260
+      },
+      "data": {
+        "label": "Compete in a Chess Tournament",
+        "description": "Train and enter a rated chess tournament.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Grandmaster Pin",
+        "xp": 0,
+        "icon": "♟️",
+        "tags": [
+          "strategy",
+          "competition"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-service",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 10440
+      },
+      "data": {
+        "label": "Service & Healing Arts",
+        "description": "Serve, soothe, and guide.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "learning",
+          "service"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "skills-first-aid",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 10620
+      },
+      "data": {
+        "label": "Certify in First Aid",
+        "description": "Complete first aid and CPR certification and keep it current.",
+        "status": "locked",
+        "rarity": "uncommon",
+        "reward": "Responder Patch",
+        "xp": 0,
+        "icon": "🩹",
+        "tags": [
+          "health",
+          "service"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-meditation-teacher",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 10800
+      },
+      "data": {
+        "label": "Meditation Teacher Training",
+        "description": "Complete a 200-hour mindfulness or meditation teacher course.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Awakened Guide Seal",
+        "xp": 0,
+        "icon": "🧘",
+        "tags": [
+          "mindfulness",
+          "teaching"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "skills-music-therapy",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 10980
+      },
+      "data": {
+        "label": "Train in Music Therapy",
+        "description": "Complete certification in music therapy.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Harmony Lyre",
+        "xp": 0,
+        "icon": "🎶",
+        "tags": [
+          "healing",
+          "music"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "pillar-culture",
+      "type": "achievement",
+      "position": {
+        "x": 360,
+        "y": 11160
+      },
+      "data": {
+        "label": "Cultural & Artistic Experiences",
+        "description": "Immerse yourself in global celebrations, arts, and heritage.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Cultural Laurels",
+        "xp": 0,
+        "icon": "🎭",
+        "tags": [
+          "pillar",
+          "culture"
+        ],
+        "color": "#facc15",
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "culture-world-festivals",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 11340
+      },
+      "data": {
+        "label": "World Festivals",
+        "description": "Dance with the calendar’s grandest gatherings.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "culture",
+          "festival"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 6
+        }
+      }
+    },
+    {
+      "id": "culture-rio-carnival",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 11520
+      },
+      "data": {
+        "label": "Celebrate Rio Carnival",
+        "description": "March with a samba school during Rio’s Carnival.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Samba Sash",
+        "xp": 0,
+        "icon": "🎉",
+        "tags": [
+          "festival",
+          "brazil"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-gion-matsuri",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 11700
+      },
+      "data": {
+        "label": "Attend Gion Matsuri",
+        "description": "Experience Kyoto’s historic Gion Matsuri parade.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Yamaboko Charm",
+        "xp": 0,
+        "icon": "🎐",
+        "tags": [
+          "festival",
+          "japan"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-diwali",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 11880
+      },
+      "data": {
+        "label": "Illuminate Diwali",
+        "description": "Share Diwali festivities with a host family in India.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Lamp of Light",
+        "xp": 0,
+        "icon": "🪔",
+        "tags": [
+          "festival",
+          "india"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-day-of-the-dead",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 12060
+      },
+      "data": {
+        "label": "Honor Día de Muertos",
+        "description": "Join a Day of the Dead celebration in Oaxaca.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Calavera Mask",
+        "xp": 0,
+        "icon": "💀",
+        "tags": [
+          "festival",
+          "mexico"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-edinburgh-fringe",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 12240
+      },
+      "data": {
+        "label": "Explore Edinburgh Fringe",
+        "description": "Immerse in the world’s largest arts festival.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Fringe Playbill",
+        "xp": 0,
+        "icon": "🎙️",
+        "tags": [
+          "festival",
+          "uk"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-sundance-film",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 12420
+      },
+      "data": {
+        "label": "Attend Sundance Film Festival",
+        "description": "Watch premieres and panels at Sundance.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Laurel Badge",
+        "xp": 0,
+        "icon": "🎬",
+        "tags": [
+          "film",
+          "usa"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-iconic-arts",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 12600
+      },
+      "data": {
+        "label": "Iconic Arts",
+        "description": "Collect opening nights, orchestras, and jazz legends.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "culture",
+          "arts"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 5
+        }
+      }
+    },
+    {
+      "id": "culture-broadway-premiere",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 12780
+      },
+      "data": {
+        "label": "See a Broadway Premiere",
+        "description": "Attend opening night of a Broadway production.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Playbill Keepsake",
+        "xp": 0,
+        "icon": "🎟️",
+        "tags": [
+          "theatre",
+          "usa"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-vienna-philharmonic",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 12960
+      },
+      "data": {
+        "label": "Hear the Vienna Philharmonic",
+        "description": "Attend a live performance in Vienna.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Maestro Baton",
+        "xp": 0,
+        "icon": "🎼",
+        "tags": [
+          "music",
+          "austria"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-la-scala-opera",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 13140
+      },
+      "data": {
+        "label": "Night at La Scala",
+        "description": "Dress for an opera evening at Teatro alla Scala.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Opera Fan",
+        "xp": 0,
+        "icon": "🎭",
+        "tags": [
+          "opera",
+          "italy"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-blue-note-jazz",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 13320
+      },
+      "data": {
+        "label": "Record at Blue Note",
+        "description": "Sit in on a live jazz recording session in NYC.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Blue Note Vinyl",
+        "xp": 0,
+        "icon": "🎷",
+        "tags": [
+          "music",
+          "usa"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-literary-festival",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 13500
+      },
+      "data": {
+        "label": "Lead a Literary Session",
+        "description": "Present at an international literary festival.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Author’s Quill",
+        "xp": 0,
+        "icon": "✒️",
+        "tags": [
+          "literature",
+          "global"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-heritage",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 13680
+      },
+      "data": {
+        "label": "Heritage & History",
+        "description": "Walk museums, rituals, and preserved memory.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "culture",
+          "heritage"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 5
+        }
+      }
+    },
+    {
+      "id": "culture-louvre-masterpieces",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 13860
+      },
+      "data": {
+        "label": "Study Louvre Masterpieces",
+        "description": "Spend a day with a curator exploring the Louvre.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Curator’s Token",
+        "xp": 0,
+        "icon": "🖼️",
+        "tags": [
+          "art",
+          "france"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-kyoto-tea",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 14040
+      },
+      "data": {
+        "label": "Perform a Tea Ceremony",
+        "description": "Train in a traditional Kyoto tea ceremony house.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Tea Whisk Seal",
+        "xp": 0,
+        "icon": "🍵",
+        "tags": [
+          "ritual",
+          "japan"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-silk-road-caravan",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 14220
+      },
+      "data": {
+        "label": "Trace the Silk Road",
+        "description": "Follow a historic Silk Road section with local guides.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Caravan Compass",
+        "xp": 0,
+        "icon": "🧭",
+        "tags": [
+          "history",
+          "asia"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-harbin-ice",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 14400
+      },
+      "data": {
+        "label": "Roam Harbin Ice Festival",
+        "description": "Wander among illuminated ice sculptures in Harbin.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Ice Lantern",
+        "xp": 0,
+        "icon": "🧊",
+        "tags": [
+          "festival",
+          "china"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "culture-cape-coast-storytelling",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 14580
+      },
+      "data": {
+        "label": "Storytelling at Cape Coast Castle",
+        "description": "Help preserve oral histories in Ghana.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Heritage Beads",
+        "xp": 0,
+        "icon": "📜",
+        "tags": [
+          "heritage",
+          "ghana"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "pillar-milestones",
+      "type": "achievement",
+      "position": {
+        "x": 360,
+        "y": 14760
+      },
+      "data": {
+        "label": "Personal Milestones & Giving Back",
+        "description": "Build legacy through service, creation, and stewardship.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Legacy Banner",
+        "xp": 0,
+        "icon": "💖",
+        "tags": [
+          "pillar",
+          "service"
+        ],
+        "color": "#ef4444",
+        "progress": {
+          "current": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "id": "milestones-impact",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 14940
+      },
+      "data": {
+        "label": "Impact & Philanthropy",
+        "description": "Fund futures and gift generosity.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "service",
+          "legacy"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "milestones-donate-year-income",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 15120
+      },
+      "data": {
+        "label": "Gift a Year of Income",
+        "description": "Donate an entire year’s salary to causes you love.",
+        "status": "locked",
+        "rarity": "mythic",
+        "reward": "Altruist Halo",
+        "xp": 0,
+        "icon": "💝",
+        "tags": [
+          "philanthropy",
+          "service"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "milestones-scholarship-fund",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 15300
+      },
+      "data": {
+        "label": "Create a Scholarship Fund",
+        "description": "Establish a scholarship that funds at least three students.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Scholarship Seal",
+        "xp": 0,
+        "icon": "🎓",
+        "tags": [
+          "education",
+          "legacy"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "milestones-sponsor-student",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 15480
+      },
+      "data": {
+        "label": "Sponsor a Student",
+        "description": "Fund a student’s complete tuition.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Guardian Seal",
+        "xp": 0,
+        "icon": "🎒",
+        "tags": [
+          "education",
+          "service"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "milestones-community",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 15660
+      },
+      "data": {
+        "label": "Community Leadership",
+        "description": "Host movements and mentor many.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "community",
+          "leadership"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "milestones-start-business",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 15840
+      },
+      "data": {
+        "label": "Launch a Purposeful Venture",
+        "description": "Start a mission-driven business or non-profit.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Founder Crest",
+        "xp": 0,
+        "icon": "🚀",
+        "tags": [
+          "entrepreneurship",
+          "impact"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "milestones-mentor-ten",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 16020
+      },
+      "data": {
+        "label": "Mentor Ten People",
+        "description": "Guide ten mentees to reach their goals.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Mentor Laurels",
+        "xp": 0,
+        "icon": "🤝",
+        "tags": [
+          "service",
+          "leadership"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 10
+        }
+      }
+    },
+    {
+      "id": "milestones-community-festival",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 16200
+      },
+      "data": {
+        "label": "Host a Community Festival",
+        "description": "Organize a cultural or service festival for 1,000 attendees.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Community Banner",
+        "xp": 0,
+        "icon": "🎪",
+        "tags": [
+          "community",
+          "service"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "milestones-creative-legacy",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 16380
+      },
+      "data": {
+        "label": "Creative Legacy",
+        "description": "Publish, curate, and archive stories that last.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "legacy",
+          "creation"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "id": "milestones-publish-book",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 16560
+      },
+      "data": {
+        "label": "Publish a Book",
+        "description": "Write and publish a book that reaches 1,000 readers.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Author’s Medal",
+        "xp": 0,
+        "icon": "📚",
+        "tags": [
+          "writing",
+          "legacy"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "milestones-art-exhibit",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 16740
+      },
+      "data": {
+        "label": "Curate a Public Exhibit",
+        "description": "Produce a public art or history exhibit.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Curator Ribbon",
+        "xp": 0,
+        "icon": "🖼️",
+        "tags": [
+          "art",
+          "legacy"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "milestones-family-history",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 16920
+      },
+      "data": {
+        "label": "Archive Family History",
+        "description": "Document and share your family’s oral histories.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Heritage Tome",
+        "xp": 0,
+        "icon": "📜",
+        "tags": [
+          "legacy",
+          "family"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "milestones-estate-plan",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 17100
+      },
+      "data": {
+        "label": "Design a Legacy Plan",
+        "description": "Craft an estate plan that funds future philanthropy.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Legacy Ledger",
+        "xp": 0,
+        "icon": "📑",
+        "tags": [
+          "planning",
+          "legacy"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "milestones-earth",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 17280
+      },
+      "data": {
+        "label": "Stewardship & Earth",
+        "description": "Restore ecosystems and lead service retreats.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "environment",
+          "legacy"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 2
+        }
+      }
+    },
+    {
+      "id": "milestones-plant-forest",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 17460
+      },
+      "data": {
+        "label": "Plant a Micro-Forest",
+        "description": "Plant and sustain 500 native trees.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Forest Wardenship",
+        "xp": 0,
+        "icon": "🌲",
+        "tags": [
+          "environment",
+          "legacy"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 5
+        }
+      }
+    },
+    {
+      "id": "milestones-service-retreat",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 17640
+      },
+      "data": {
+        "label": "Service Retreat Team",
+        "description": "Lead three service retreats focused on the environment.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Earth Guardian Band",
+        "xp": 0,
+        "icon": "🌍",
+        "tags": [
+          "service",
+          "environment"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "pillar-soul",
+      "type": "achievement",
+      "position": {
+        "x": 360,
+        "y": 17820
+      },
+      "data": {
+        "label": "Mind, Body & Soul",
+        "description": "Pursue inner mastery, reflection, and spiritual resilience.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Inner Sage Sigil",
+        "xp": 0,
+        "icon": "🧘",
+        "tags": [
+          "pillar",
+          "mindfulness"
+        ],
+        "color": "#22c55e",
+        "progress": {
+          "current": 0,
+          "total": 5
+        }
+      }
+    },
+    {
+      "id": "soul-mindful-practice",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 18000
+      },
+      "data": {
+        "label": "Mindful Practice",
+        "description": "Deepen meditative and breath-centered discipline.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "mindfulness",
+          "practice"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "mind-silent-retreat",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 18180
+      },
+      "data": {
+        "label": "Complete a Silent Retreat",
+        "description": "Finish a 10-day silent meditation retreat.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Silence Bead",
+        "xp": 0,
+        "icon": "🕯️",
+        "tags": [
+          "mindfulness",
+          "retreat"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 10
+        }
+      }
+    },
+    {
+      "id": "mind-meditation-streak",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 18360
+      },
+      "data": {
+        "label": "365-Day Meditation Streak",
+        "description": "Meditate daily for an entire year.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Streak Band",
+        "xp": 0,
+        "icon": "🧘",
+        "tags": [
+          "mindfulness",
+          "discipline"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 365
+        }
+      }
+    },
+    {
+      "id": "mind-breathwork-guide",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 18540
+      },
+      "data": {
+        "label": "Train as Breathwork Guide",
+        "description": "Finish breathwork facilitator certification.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Prana Pendant",
+        "xp": 0,
+        "icon": "🌬️",
+        "tags": [
+          "wellness",
+          "training"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "soul-holistic-wellness",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 18720
+      },
+      "data": {
+        "label": "Holistic Wellness",
+        "description": "Balance yoga, therapy, and forest immersion.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "wellness",
+          "balance"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "mind-yoga-200hr",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 18900
+      },
+      "data": {
+        "label": "Earn 200-Hour Yoga Certification",
+        "description": "Complete a Yoga Alliance approved training.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Lotus Emblem",
+        "xp": 0,
+        "icon": "🪷",
+        "tags": [
+          "wellness",
+          "training"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 200
+        }
+      }
+    },
+    {
+      "id": "mind-therapy-series",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 19080
+      },
+      "data": {
+        "label": "Complete Therapy Series",
+        "description": "Finish 40 sessions of personal therapy.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Healing Stone",
+        "xp": 0,
+        "icon": "💠",
+        "tags": [
+          "mental-health",
+          "growth"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 40
+        }
+      }
+    },
+    {
+      "id": "mind-forest-bathing",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 19260
+      },
+      "data": {
+        "label": "Shinrin-yoku Immersion",
+        "description": "Complete 12 guided forest bathing sessions.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Forest Whisper Charm",
+        "xp": 0,
+        "icon": "🌲",
+        "tags": [
+          "nature",
+          "wellness"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 12
+        }
+      }
+    },
+    {
+      "id": "soul-resilience",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 19440
+      },
+      "data": {
+        "label": "Resilience & Exploration",
+        "description": "Explore vision quests, solitude, and cold mastery.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "resilience",
+          "exploration"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    },
+    {
+      "id": "mind-vision-quest",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 19620
+      },
+      "data": {
+        "label": "Undertake a Vision Quest",
+        "description": "Spend four days in solo nature meditation.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Vision Feather",
+        "xp": 0,
+        "icon": "🪶",
+        "tags": [
+          "spiritual",
+          "outdoors"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "id": "mind-annual-solo",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 19800
+      },
+      "data": {
+        "label": "Annual Solo Reflection Trip",
+        "description": "Take a yearly solo retreat for five consecutive years.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Wayfinder Token",
+        "xp": 0,
+        "icon": "🗺️",
+        "tags": [
+          "reflection",
+          "travel"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 5
+        }
+      }
+    },
+    {
+      "id": "mind-cold-immersion",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 19980
+      },
+      "data": {
+        "label": "Master Cold Immersion",
+        "description": "Maintain cold exposure practice for 52 weeks.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Iceflow Sigil",
+        "xp": 0,
+        "icon": "🧊",
+        "tags": [
+          "resilience",
+          "habit"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 52
+        }
+      }
+    },
+    {
+      "id": "soul-creative-habits",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 20160
+      },
+      "data": {
+        "label": "Creative Habit & Awareness",
+        "description": "Record gratitude, refine mornings, and dream lucidly.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "habit",
+          "awareness"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 4
+        }
+      }
+    },
+    {
+      "id": "mind-gratitude-journal",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 20340
+      },
+      "data": {
+        "label": "Keep a Gratitude Journal",
+        "description": "Record gratitude entries for 200 days.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Gratitude Quill",
+        "xp": 0,
+        "icon": "🖊️",
+        "tags": [
+          "mindfulness",
+          "habit"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 200
+        }
+      }
+    },
+    {
+      "id": "mind-digital-detox",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 20520
+      },
+      "data": {
+        "label": "Complete Digital Detox Year",
+        "description": "Take one tech-free weekend each month for a year.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Offline Halo",
+        "xp": 0,
+        "icon": "📵",
+        "tags": [
+          "balance",
+          "habit"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 12
+        }
+      }
+    },
+    {
+      "id": "mind-lucid-dream",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 20700
+      },
+      "data": {
+        "label": "Master Lucid Dreaming",
+        "description": "Experience lucid dreams ten times.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Dreamcatcher",
+        "xp": 0,
+        "icon": "🪄",
+        "tags": [
+          "mind",
+          "sleep"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 10
+        }
+      }
+    },
+    {
+      "id": "mind-morning-routine",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 20880
+      },
+      "data": {
+        "label": "Craft a Master Morning Routine",
+        "description": "Stick to a tailored routine for 180 mornings.",
+        "status": "locked",
+        "rarity": "rare",
+        "reward": "Sunrise Band",
+        "xp": 0,
+        "icon": "🌅",
+        "tags": [
+          "habit",
+          "discipline"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 180
+        }
+      }
+    },
+    {
+      "id": "soul-service-discipline",
+      "type": "achievement",
+      "position": {
+        "x": 720,
+        "y": 21060
+      },
+      "data": {
+        "label": "Service & Discipline",
+        "description": "Serve retreat teams and earn martial mastery.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "",
+        "xp": 0,
+        "icon": "",
+        "tags": [
+          "service",
+          "discipline"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 2
+        }
+      }
+    },
+    {
+      "id": "mind-martial-arts-blackbelt",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 21240
+      },
+      "data": {
+        "label": "Earn a Martial Arts Black Belt",
+        "description": "Train to black belt in a martial art.",
+        "status": "locked",
+        "rarity": "legendary",
+        "reward": "Dojo Crest",
+        "xp": 0,
+        "icon": "🥋",
+        "tags": [
+          "discipline",
+          "physical"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 1
+        }
+      }
+    },
+    {
+      "id": "mind-service-retreat",
+      "type": "achievement",
+      "position": {
+        "x": 1080,
+        "y": 21420
+      },
+      "data": {
+        "label": "Serve on a Mindfulness Retreat Team",
+        "description": "Volunteer for three mindfulness retreats.",
+        "status": "locked",
+        "rarity": "epic",
+        "reward": "Service Mala",
+        "xp": 0,
+        "icon": "📿",
+        "tags": [
+          "service",
+          "mindfulness"
+        ],
+        "progress": {
+          "current": 0,
+          "total": 3
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-root-pillar-travel",
+      "source": "root",
+      "target": "pillar-travel",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-travel-travel-natural-marvels",
+      "source": "pillar-travel",
+      "target": "travel-natural-marvels",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-natural-marvels-travel-northern-lights",
+      "source": "travel-natural-marvels",
+      "target": "travel-northern-lights",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-natural-marvels-travel-bioluminescent-bay",
+      "source": "travel-natural-marvels",
+      "target": "travel-bioluminescent-bay",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-natural-marvels-travel-victoria-falls",
+      "source": "travel-natural-marvels",
+      "target": "travel-victoria-falls",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-natural-marvels-travel-antarctica-cruise",
+      "source": "travel-natural-marvels",
+      "target": "travel-antarctica-cruise",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-travel-travel-heritage-treasures",
+      "source": "pillar-travel",
+      "target": "travel-heritage-treasures",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-heritage-treasures-travel-machu-picchu",
+      "source": "travel-heritage-treasures",
+      "target": "travel-machu-picchu",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-heritage-treasures-travel-great-wall",
+      "source": "travel-heritage-treasures",
+      "target": "travel-great-wall",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-heritage-treasures-travel-taj-mahal",
+      "source": "travel-heritage-treasures",
+      "target": "travel-taj-mahal",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-heritage-treasures-travel-camino-norte",
+      "source": "travel-heritage-treasures",
+      "target": "travel-camino-norte",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-travel-travel-ecosystems",
+      "source": "pillar-travel",
+      "target": "travel-ecosystems",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-ecosystems-travel-amazon",
+      "source": "travel-ecosystems",
+      "target": "travel-amazon",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-ecosystems-travel-safari-big-five",
+      "source": "travel-ecosystems",
+      "target": "travel-safari-big-five",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-ecosystems-travel-greenland-fjords",
+      "source": "travel-ecosystems",
+      "target": "travel-greenland-fjords",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-ecosystems-travel-socotra",
+      "source": "travel-ecosystems",
+      "target": "travel-socotra",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-travel-travel-cultural-immersions",
+      "source": "pillar-travel",
+      "target": "travel-cultural-immersions",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-cultural-immersions-travel-cherry-blossoms",
+      "source": "travel-cultural-immersions",
+      "target": "travel-cherry-blossoms",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-cultural-immersions-travel-gobi-camp",
+      "source": "travel-cultural-immersions",
+      "target": "travel-gobi-camp",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-cultural-immersions-travel-faroe-islands",
+      "source": "travel-cultural-immersions",
+      "target": "travel-faroe-islands",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-travel-cultural-immersions-travel-dead-sea",
+      "source": "travel-cultural-immersions",
+      "target": "travel-dead-sea",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-root-pillar-adventure",
+      "source": "root",
+      "target": "pillar-adventure",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-adventure-adventure-expeditions",
+      "source": "pillar-adventure",
+      "target": "adventure-expeditions",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-adventure-expeditions-physical-eight-thousand",
+      "source": "adventure-expeditions",
+      "target": "physical-eight-thousand",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-adventure-expeditions-physical-world-mountain",
+      "source": "adventure-expeditions",
+      "target": "physical-world-mountain",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-adventure-expeditions-physical-desert-trek",
+      "source": "adventure-expeditions",
+      "target": "physical-desert-trek",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-adventure-adventure-endurance",
+      "source": "pillar-adventure",
+      "target": "adventure-endurance",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-adventure-endurance-physical-english-channel",
+      "source": "adventure-endurance",
+      "target": "physical-english-channel",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-adventure-endurance-physical-marathon",
+      "source": "adventure-endurance",
+      "target": "physical-marathon",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-adventure-endurance-physical-long-distance-cycle",
+      "source": "adventure-endurance",
+      "target": "physical-long-distance-cycle",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-adventure-adventure-adrenaline",
+      "source": "pillar-adventure",
+      "target": "adventure-adrenaline",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-adventure-adrenaline-physical-skydive",
+      "source": "adventure-adrenaline",
+      "target": "physical-skydive",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-adventure-adrenaline-physical-bungee",
+      "source": "adventure-adrenaline",
+      "target": "physical-bungee",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-adventure-adrenaline-physical-hot-air-balloon",
+      "source": "adventure-adrenaline",
+      "target": "physical-hot-air-balloon",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-adventure-adventure-survival",
+      "source": "pillar-adventure",
+      "target": "adventure-survival",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-adventure-survival-physical-whitewater",
+      "source": "adventure-survival",
+      "target": "physical-whitewater",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-adventure-survival-physical-national-park-week",
+      "source": "adventure-survival",
+      "target": "physical-national-park-week",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-adventure-survival-physical-solitude-night",
+      "source": "adventure-survival",
+      "target": "physical-solitude-night",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-adventure-survival-physical-survival-course",
+      "source": "adventure-survival",
+      "target": "physical-survival-course",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-root-pillar-skills",
+      "source": "root",
+      "target": "pillar-skills",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-skills-skills-communication",
+      "source": "pillar-skills",
+      "target": "skills-communication",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-communication-skills-new-language",
+      "source": "skills-communication",
+      "target": "skills-new-language",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-communication-skills-sign-language",
+      "source": "skills-communication",
+      "target": "skills-sign-language",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-communication-skills-article-publish",
+      "source": "skills-communication",
+      "target": "skills-article-publish",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-skills-skills-performance",
+      "source": "pillar-skills",
+      "target": "skills-performance",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-performance-skills-musical-instrument",
+      "source": "skills-performance",
+      "target": "skills-musical-instrument",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-performance-skills-standup-comedy",
+      "source": "skills-performance",
+      "target": "skills-standup-comedy",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-performance-skills-lead-workshop",
+      "source": "skills-performance",
+      "target": "skills-lead-workshop",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-skills-skills-crafts",
+      "source": "pillar-skills",
+      "target": "skills-crafts",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-crafts-skills-woodworking",
+      "source": "skills-crafts",
+      "target": "skills-woodworking",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-crafts-skills-blacksmithing",
+      "source": "skills-crafts",
+      "target": "skills-blacksmithing",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-crafts-skills-calligraphy",
+      "source": "skills-crafts",
+      "target": "skills-calligraphy",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-crafts-skills-home-garden",
+      "source": "skills-crafts",
+      "target": "skills-home-garden",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-skills-skills-innovation",
+      "source": "pillar-skills",
+      "target": "skills-innovation",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-innovation-skills-pilot-license",
+      "source": "skills-innovation",
+      "target": "skills-pilot-license",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-innovation-skills-3d-printing",
+      "source": "skills-innovation",
+      "target": "skills-3d-printing",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-innovation-skills-chess-tournament",
+      "source": "skills-innovation",
+      "target": "skills-chess-tournament",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-skills-skills-service",
+      "source": "pillar-skills",
+      "target": "skills-service",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-service-skills-first-aid",
+      "source": "skills-service",
+      "target": "skills-first-aid",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-service-skills-meditation-teacher",
+      "source": "skills-service",
+      "target": "skills-meditation-teacher",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-skills-service-skills-music-therapy",
+      "source": "skills-service",
+      "target": "skills-music-therapy",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-root-pillar-culture",
+      "source": "root",
+      "target": "pillar-culture",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-culture-culture-world-festivals",
+      "source": "pillar-culture",
+      "target": "culture-world-festivals",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-world-festivals-culture-rio-carnival",
+      "source": "culture-world-festivals",
+      "target": "culture-rio-carnival",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-world-festivals-culture-gion-matsuri",
+      "source": "culture-world-festivals",
+      "target": "culture-gion-matsuri",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-world-festivals-culture-diwali",
+      "source": "culture-world-festivals",
+      "target": "culture-diwali",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-world-festivals-culture-day-of-the-dead",
+      "source": "culture-world-festivals",
+      "target": "culture-day-of-the-dead",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-world-festivals-culture-edinburgh-fringe",
+      "source": "culture-world-festivals",
+      "target": "culture-edinburgh-fringe",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-world-festivals-culture-sundance-film",
+      "source": "culture-world-festivals",
+      "target": "culture-sundance-film",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-culture-culture-iconic-arts",
+      "source": "pillar-culture",
+      "target": "culture-iconic-arts",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-iconic-arts-culture-broadway-premiere",
+      "source": "culture-iconic-arts",
+      "target": "culture-broadway-premiere",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-iconic-arts-culture-vienna-philharmonic",
+      "source": "culture-iconic-arts",
+      "target": "culture-vienna-philharmonic",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-iconic-arts-culture-la-scala-opera",
+      "source": "culture-iconic-arts",
+      "target": "culture-la-scala-opera",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-iconic-arts-culture-blue-note-jazz",
+      "source": "culture-iconic-arts",
+      "target": "culture-blue-note-jazz",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-iconic-arts-culture-literary-festival",
+      "source": "culture-iconic-arts",
+      "target": "culture-literary-festival",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-culture-culture-heritage",
+      "source": "pillar-culture",
+      "target": "culture-heritage",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-heritage-culture-louvre-masterpieces",
+      "source": "culture-heritage",
+      "target": "culture-louvre-masterpieces",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-heritage-culture-kyoto-tea",
+      "source": "culture-heritage",
+      "target": "culture-kyoto-tea",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-heritage-culture-silk-road-caravan",
+      "source": "culture-heritage",
+      "target": "culture-silk-road-caravan",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-heritage-culture-harbin-ice",
+      "source": "culture-heritage",
+      "target": "culture-harbin-ice",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-culture-heritage-culture-cape-coast-storytelling",
+      "source": "culture-heritage",
+      "target": "culture-cape-coast-storytelling",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-root-pillar-milestones",
+      "source": "root",
+      "target": "pillar-milestones",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-milestones-milestones-impact",
+      "source": "pillar-milestones",
+      "target": "milestones-impact",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-milestones-impact-milestones-donate-year-income",
+      "source": "milestones-impact",
+      "target": "milestones-donate-year-income",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-milestones-impact-milestones-scholarship-fund",
+      "source": "milestones-impact",
+      "target": "milestones-scholarship-fund",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-milestones-impact-milestones-sponsor-student",
+      "source": "milestones-impact",
+      "target": "milestones-sponsor-student",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-milestones-milestones-community",
+      "source": "pillar-milestones",
+      "target": "milestones-community",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-milestones-community-milestones-start-business",
+      "source": "milestones-community",
+      "target": "milestones-start-business",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-milestones-community-milestones-mentor-ten",
+      "source": "milestones-community",
+      "target": "milestones-mentor-ten",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-milestones-community-milestones-community-festival",
+      "source": "milestones-community",
+      "target": "milestones-community-festival",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-milestones-milestones-creative-legacy",
+      "source": "pillar-milestones",
+      "target": "milestones-creative-legacy",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-milestones-creative-legacy-milestones-publish-book",
+      "source": "milestones-creative-legacy",
+      "target": "milestones-publish-book",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-milestones-creative-legacy-milestones-art-exhibit",
+      "source": "milestones-creative-legacy",
+      "target": "milestones-art-exhibit",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-milestones-creative-legacy-milestones-family-history",
+      "source": "milestones-creative-legacy",
+      "target": "milestones-family-history",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-milestones-creative-legacy-milestones-estate-plan",
+      "source": "milestones-creative-legacy",
+      "target": "milestones-estate-plan",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-milestones-milestones-earth",
+      "source": "pillar-milestones",
+      "target": "milestones-earth",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-milestones-earth-milestones-plant-forest",
+      "source": "milestones-earth",
+      "target": "milestones-plant-forest",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-milestones-earth-milestones-service-retreat",
+      "source": "milestones-earth",
+      "target": "milestones-service-retreat",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-root-pillar-soul",
+      "source": "root",
+      "target": "pillar-soul",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-soul-soul-mindful-practice",
+      "source": "pillar-soul",
+      "target": "soul-mindful-practice",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-mindful-practice-mind-silent-retreat",
+      "source": "soul-mindful-practice",
+      "target": "mind-silent-retreat",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-mindful-practice-mind-meditation-streak",
+      "source": "soul-mindful-practice",
+      "target": "mind-meditation-streak",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-mindful-practice-mind-breathwork-guide",
+      "source": "soul-mindful-practice",
+      "target": "mind-breathwork-guide",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-soul-soul-holistic-wellness",
+      "source": "pillar-soul",
+      "target": "soul-holistic-wellness",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-holistic-wellness-mind-yoga-200hr",
+      "source": "soul-holistic-wellness",
+      "target": "mind-yoga-200hr",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-holistic-wellness-mind-therapy-series",
+      "source": "soul-holistic-wellness",
+      "target": "mind-therapy-series",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-holistic-wellness-mind-forest-bathing",
+      "source": "soul-holistic-wellness",
+      "target": "mind-forest-bathing",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-soul-soul-resilience",
+      "source": "pillar-soul",
+      "target": "soul-resilience",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-resilience-mind-vision-quest",
+      "source": "soul-resilience",
+      "target": "mind-vision-quest",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-resilience-mind-annual-solo",
+      "source": "soul-resilience",
+      "target": "mind-annual-solo",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-resilience-mind-cold-immersion",
+      "source": "soul-resilience",
+      "target": "mind-cold-immersion",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-soul-soul-creative-habits",
+      "source": "pillar-soul",
+      "target": "soul-creative-habits",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-creative-habits-mind-gratitude-journal",
+      "source": "soul-creative-habits",
+      "target": "mind-gratitude-journal",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-creative-habits-mind-digital-detox",
+      "source": "soul-creative-habits",
+      "target": "mind-digital-detox",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-creative-habits-mind-lucid-dream",
+      "source": "soul-creative-habits",
+      "target": "mind-lucid-dream",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-creative-habits-mind-morning-routine",
+      "source": "soul-creative-habits",
+      "target": "mind-morning-routine",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-pillar-soul-soul-service-discipline",
+      "source": "pillar-soul",
+      "target": "soul-service-discipline",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-service-discipline-mind-martial-arts-blackbelt",
+      "source": "soul-service-discipline",
+      "target": "mind-martial-arts-blackbelt",
+      "type": "smoothstep"
+    },
+    {
+      "id": "edge-soul-service-discipline-mind-service-retreat",
+      "source": "soul-service-discipline",
+      "target": "mind-service-retreat",
+      "type": "smoothstep"
+    }
+  ]
+}
