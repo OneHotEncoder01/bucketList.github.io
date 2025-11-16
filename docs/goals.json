@@ -1,0 +1,126 @@
+{
+  "advancements": [
+    {
+      "id": "start",
+      "title": "The Journey Begins",
+      "icon": "⭐",
+      "pos": { "x": 0, "y": 0 }
+    },
+    
+    {
+      "id": "climb_first_4k",
+      "title": "Touch the Sky (4k)",
+      "icon": "🗻",
+      "parent": "start",
+      "pos": { "x": 200, "y": -80 }
+    },
+    {
+      "id": "climb_three_4k",
+      "title": "Triple Crown (4k)",
+      "icon": "🏔️",
+      "parent": "climb_first_4k",
+      "pos": { "x": 400, "y": -80 }
+    },
+    {
+      "id": "mont_blanc",
+      "title": "Mont Blanc",
+      "icon": "🥇",
+      "parent": "climb_first_4k",
+      "pos": { "x": 400, "y": -160 }
+    },
+    {
+      "id": "alpine_skills",
+      "title": "Alpine Skills Basics",
+      "icon": "🧗",
+      "parent": "climb_first_4k",
+      "pos": { "x": 200, "y": -160 }
+    },
+    {
+      "id": "alpine_traverse",
+      "title": "Alpine Traverse",
+      "icon": "🧭",
+      "parent": "climb_three_4k",
+      "pos": { "x": 600, "y": -80 }
+    },
+    {
+      "id": "seven_summits_prep",
+      "title": "High-Altitude Prep",
+      "icon": "🧤",
+      "parent": "mont_blanc",
+      "pos": { "x": 600, "y": -160 }
+    },
+
+    {
+      "id": "swim_first",
+      "title": "Make a Splash",
+      "icon": "🏊",
+      "parent": "start",
+      "pos": { "x": 200, "y": 100 }
+    },
+    {
+      "id": "swim_60min",
+      "title": "Endurance Swim (60m)",
+      "icon": "🌊",
+      "parent": "swim_first",
+      "pos": { "x": 400, "y": 100 }
+    },
+    {
+      "id": "swim_streak_10",
+      "title": "Water Streak ×10",
+      "icon": "🔥",
+      "parent": "swim_first",
+      "pos": { "x": 400, "y": 180 }
+    },
+    {
+      "id": "open_water_intro",
+      "title": "Open-Water Intro",
+      "icon": "🌅",
+      "parent": "swim_60min",
+      "pos": { "x": 600, "y": 100 }
+    },
+
+    {
+      "id": "run_5k",
+      "title": "First 5k",
+      "icon": "🏃",
+      "parent": "start",
+      "pos": { "x": 200, "y": 260 }
+    },
+    {
+      "id": "run_10k",
+      "title": "10k Milestone",
+      "icon": "🥈",
+      "parent": "run_5k",
+      "pos": { "x": 400, "y": 260 }
+    },
+    {
+      "id": "half_marathon",
+      "title": "Half Marathon",
+      "icon": "🥇",
+      "parent": "run_10k",
+      "pos": { "x": 600, "y": 260 }
+    },
+
+    {
+      "id": "read_first_book",
+      "title": "Finish One Book",
+      "icon": "📘",
+      "parent": "start",
+      "pos": { "x": 200, "y": -260 }
+    },
+    {
+      "id": "read_12_books",
+      "title": "Read 12 in a Year",
+      "icon": "📚",
+      "parent": "read_first_book",
+      "pos": { "x": 400, "y": -260 }
+    },
+    {
+      "id": "book_club",
+      "title": "Join a Book Club",
+      "icon": "🗣️",
+      "parent": "read_first_book",
+      "pos": { "x": 400, "y": -340 }
+    }
+  ]
+}
