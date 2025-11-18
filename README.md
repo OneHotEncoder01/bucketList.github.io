@@ -84,7 +84,9 @@ npm run build
 
 The build emits static assets into `docs/`. Commit that folder and push to GitHub. In the repository settings, configure **Pages → Build and deployment** to serve from the `docs/` folder on the `master` branch (or whichever branch you use).
 
-If you prefer GitHub Actions deployments, update `.github/workflows/deploy.yml` so the `branches` filter matches your branch and keep `frontend/dist` as the artifact path.
+If you prefer GitHub Actions deployments, keep one workflow that builds the frontend and uploads the `docs/` folder as the Pages artifact. This repository's CI already builds `frontend` into `docs/` and the workflow injects `VITE_API_BASE` so the production bundle points to your deployed backend (see `.github/workflows/deploy.yml`).
+
+CI note: the workflow sets `VITE_API_BASE` to `https://bucketlist-github-io.onrender.com` during the build. If you deploy the API to a different URL, update the `deploy.yml` build step or set `VITE_API_BASE` via `frontend/.env.production`.
 
 ## Environment files
 
