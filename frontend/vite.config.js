@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/bucketList.github.io/',
+  // Use a relative base so the built site works regardless of Pages path
+  base: './',
   build: {
     outDir: '../docs',
     emptyOutDir: true,
