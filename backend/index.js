@@ -652,6 +652,10 @@ async function start() {
     }
   })
 
+  app.get('/', (_req, res) => {
+    res.json({ status: 'ok', service: 'FocusFrame API', version: '1.0.0' })
+  })
+
   app.listen(PORT, () => console.log(`Backend API listening on http://localhost:${PORT}`))
 }
 

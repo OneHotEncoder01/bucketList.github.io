@@ -47,6 +47,34 @@ Open `http://localhost:5173` in your browser. The frontend talks to `http://loca
 
 Give this public API URL to the frontend via `VITE_API_BASE`.
 
+## How the web app reaches MongoDB
+
+- Visitors load the static frontend from GitHub Pages (the contents of `docs/`).
+- The React app reads `VITE_API_BASE` and issues HTTPS requests to `VITE_API_BASE/api/boards/...` using the helpers in `frontend/src/api/boards.js`.
+- The Express server defined in `backend/index.js` receives those requests, runs the route logic (CRUD operations on boards and achievements), and persists data inside MongoDB via the official driver.
+- Responses are sent back as JSON; the frontend updates React state and renders the updated board.
+
+Because browsers cannot talk to MongoDB directly, every data operation must go through the backend API. End-users therefore interact with MongoDB indirectly through these REST endpoints:
+
+- `GET /api/boards`
+- `POST /api/boards`
+- `GET /api/boards/:id`
+- `PUT /api/boards/:id`
+- `DELETE /api/boards/:id`
+- `POST /api/boards/:id/achievements`
+- `PATCH /api/boards/:id/achievements/:achievementId`
+- `DELETE /api/boards/:id/achievements/:achievementId`
+- `POST /api/boards/:id/achievements/:achievementId/progress`
+
+### Expose the API safely
+
+1. Deploy the backend to a public host and make sure it uses HTTPS (either via the platform or a reverse proxy).
+2. Set `CORS_ORIGINS` so only your Pages URL (and any other approved domains) can call the API from browsers.
+3. Supply the deployed API base URL to the frontend build through `VITE_API_BASE` before running `npm run build`.
+4. Consider adding authentication, rate limiting, or API keys before allowing anonymous writes, since the current routes accept any request from an allowed origin.
+
+With these pieces in place, anyone opening your Pages site can create, update, or browse boards, and all persistence flows through the MongoDB database controlled by the backend.
+
 ## Building and publishing the frontend
 
 ```bash
